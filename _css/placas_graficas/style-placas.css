@@ -1,0 +1,552 @@
+@charset "UTF-8";
+
+/* Cabeçalho */
+body{
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 130px;
+    margin: 0px;
+}
+
+div.teste {
+    content: '';
+    border-bottom: 7px solid #484d50;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+/* Estilo do cabeçalho com o menu */
+div.menu {
+    position: relative;
+}
+
+div.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    left: 260px;
+}
+
+div.menu h1{ 
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* DROPDOWN NO MENU PRICIPAL */
+
+/* EFEITO NA BORDA */
+
+/* cor opcional: #e15112 */
+
+.btn-line span:nth-child(1){
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0px;;
+    width: 5px;
+    height:5px;
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+
+    transition:.75s;
+}
+    
+.btn-line:hover span:nth-child(1){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(2){
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width:5px;
+    height:5px;
+    border-top:2px solid #fff;
+    border-right:2px solid #fff;
+ 
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(2){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(3){
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:5px;
+    height:5px;
+    border-bottom:2px solid #fff;
+    border-left:2px solid #fff;
+
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(3){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(4){
+    content:'';
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:5px;
+    height:5px;
+    border-bottom:2px solid #fff;
+    border-right:2px solid #fff;
+
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(4){
+    width:50%;
+    height:50%;
+}
+
+.btn-line{
+    top: 8px;
+    margin:0 5px;
+    position:relative;
+    display:inline-block;
+    padding: 8px 15px!important;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-family: 'Calibri';
+    font-size:16px;
+    font-weight: bold;
+    -webkit-transition:.75s;
+    transition:.75s;
+    overflow:hidden;
+}
+
+.btn-line:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    top: 40.5px;
+    left: 5px;
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255);
+    min-width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Calibri';
+    font-size: 18px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #fff;
+}
+
+.dropdown:hover .btn-line {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* Local de pesquisa */
+.lupa {
+    top: 40px;
+    margin:0 5px;
+    position:relative;
+    display:inline-block;
+    padding: 8px 15px!important;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-family: 'Calibri';
+    font-size:16px;
+    font-weight: bold;
+    -webkit-transition:.2s;
+    transition:.2s;
+    overflow:hidden;
+}
+
+.pesquisar {
+    position: relative;
+    display: inline-block;
+    left: 90%;
+}
+
+.search-content {
+    top: 86px;
+    right: 5px;
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    background-color: rgba(255,255,255);
+    min-width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+    font-weight: bold;
+}
+
+.search-content input.campo-search {
+    width: 300px;
+    height: 40px;
+    top: 0px;
+    right: 50px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Calibri';
+    border: 5px solid #fff;
+    border-radius: 6px;
+    display: block;
+}
+
+.search-content input:hover {
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+.pesquisar:hover .search-content {
+    display: block;
+    background-color: #fff;
+}
+
+.pesquisar:hover .lupa{
+    background-color: #252525;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* 1° Sessão */
+.title-graphic p{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    margin: 0%;
+}
+
+.title-graphic sup{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: -20px;
+    font-weight: bold;
+}
+
+.season1-rx6000{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.season1-rx6000 {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    background: url(/_imagens/Placas/RX\ 6000/616656-ryzen-5000-series-background.jpg);
+	background-repeat: no-repeat;
+	background-position: initial;
+	background-size: cover;
+}
+
+.text-radeon1 {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    top: 65px;
+    left: 108%;
+}
+
+.text-radeon1 h2{
+    position: relative;
+    width: 450px;
+    left: 24px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    text-align: center;
+}
+
+.text-radeon1 p{
+    color: #fff;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 100;
+    width: 400px;
+    left: 50px;
+    top: 20px;
+    line-height: 30px;
+}
+
+.btn1 {
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.botao-color-1 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 3px solid #000;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    font-size: 17px;
+    font-family: Comic Sans MS;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.botao-color-1:hover{
+    background-color: #252525;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+a.botao-color-1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; 
+}
+  
+a.botao-color-1 span.a1:after {
+    color: #fff;
+    content: '\22d8';
+    position: absolute;
+    font-size: 22px;
+    font-weight: bolder;
+    opacity: 0;
+    top: -4px;
+    right: 165px;
+    transition: 0.5s;
+}
+  
+a.botao-color-1:hover span.a1 {
+    margin-right: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+  
+a.botao-color-1:hover span.a1:after {
+    opacity: 1;
+    right: 185px;
+}
+
+a.botao-color-1 span.b2:after {
+    color: #fff;
+    content: '\22d9';
+    position: absolute;
+    font-size: 22px;
+    font-weight: bolder;
+    opacity: 0;
+    top: -4px;
+    left: 160px;
+    transition: 0.5s;
+}
+  
+a.botao-color-1:hover span.b2:after {
+    opacity: 1;
+    left: 180px;
+}
+
+.rx6000{
+    position: relative;
+    height: 220px;
+    min-width: auto;
+    bottom: 150px;
+    left: -100%;
+}
+
+.amdRadeon {
+    position: relative;
+    height: 125px;
+    min-width: auto;
+    bottom: 315px;
+    right: -125%;
+}
+
+
+.teste {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RODAPÉ DO SITE COM ICONS */
+footer {
+    position: relative;
+    background-color: #000;
+    height: 200px;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+footer div.finish-index{
+    position: relative;
+    width: 85%;
+    border-bottom: 3px solid #fff;
+    left: 6.6%;
+    top: 30px;
+}
+
+footer div.icons {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    height: 50px;
+}
+
+footer div.icons a {
+    text-decoration: none;
+}
+
+footer div.icons svg.bi-facebook {
+    margin-right: 10px;
+    color: #fff;
+}
+
+footer div.icons svg.bi-facebook:hover {
+    color: #0a328f;
+}
+
+footer div.icons svg.bi-twitter {
+    margin-right: 10px;
+    color: #fff;
+}
+
+footer div.icons svg.bi-twitter:hover{
+    color: #1cabf3;
+}
+
+footer div.icons svg.bi-youtube {
+    margin-right: 10px;
+    color: #fff;
+}
+
+footer div.icons svg.bi-youtube:hover {
+    color: #d30700;
+}
+
+footer div.copyright{
+    position: relative;
+    top: 40px;
+    left: 6.6%;
+    color: #fff;
+    width: 500px;
+    font-family: 'Calibri';
+}
+
+footer div.termos-licencas {
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    left: 6.6%;
+    color: #fff;
+    font-family: 'Calibri';
+}
+
+footer div a{
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+

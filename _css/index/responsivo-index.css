@@ -1,0 +1,140 @@
+     /* PARTE DO SITE MOBILE */
+
+
+     @media screen and (max-width: 480px) {
+        header{
+            width: 480px;
+        }
+    
+        /* 1° Sessão */
+        section.season1 {
+            width: 480px;
+            background-color: black;
+        }
+    
+        .text-season1 {
+            width: 480px;
+            bottom: 430px;
+            left: -10px;
+        }  
+        
+        .mywork img{
+            height: 200px;  
+            margin: 0px;
+            padding: 0px;
+            border: 0px;   
+        }
+
+        div.myworks img.teste{
+            position: inherit;
+            top: -10px;
+            width: 480px;
+            height: 400px;
+        }
+        
+    
+        h3.text-Minha-Empresa{
+            top: 230px;
+        }
+    
+        .botao-color {
+            top: 330px;
+        }
+    
+    
+        /* 2° Sessão */
+        section.season2 {
+            width: 480px;
+            height: 810px;
+        }
+    
+        div.processor {
+            top: 25px;
+            left: 75px;
+            width: 325px;
+        }
+    
+        .proce {
+            width: 325px;
+            height: 175px;
+        }
+    
+        div.graphic-card {
+            top: 400px;
+            left: 75px;
+            width: 325px;
+        }
+    
+        .placas {
+            width: 325px; 
+            height: 175px
+        }
+    
+    
+        /* 3° Sessão */
+        .title-server p {
+            font-size: 28px;
+            width: 480px;
+            text-align: center;
+            right: 20px;
+        }
+    
+        section.season3{
+            width: 480px;
+        }
+    
+        .caixa-server {
+            width: 480px;
+            height: 302px;
+            bottom: 1px;
+            left: 0px;
+        }
+    
+        div.server-edition .img-season3 {
+            height: 150px;
+        }
+    
+    
+        /* Rodapé do Site */
+        footer {
+            height: 200px;
+            width: 480px;
+            margin: 0px;
+            
+        }
+    
+        footer div.finish-index{
+            width: 450px;
+            left: 15px;
+            margin-right: -10px;
+            padding: 0px;
+        }
+    
+        footer div.icons svg.bi-facebook {
+            margin-right: 120px;
+            margin-left: 20px;
+        }
+        
+        footer div.icons svg.bi-twitter {
+            margin-right: 120px;
+        }
+        
+        footer div.icons svg.bi-youtube {
+            margin-right: 1px;
+            padding-right: 0px;
+            margin-left: 0px;
+        }
+    
+        footer div.copyright{
+            left: 15px;
+            width: 450px;
+        }
+        
+        footer div.termos-licencas {
+            left: 15px;
+            width: 450px;
+        }
+    
+    }
+    
+    
