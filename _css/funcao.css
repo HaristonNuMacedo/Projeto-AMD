@@ -1,60 +1,196 @@
+body{
+    background-color: #353535;
+}
+
 header{
     background-color: black;
+    height: 300px;
+    position: relative;
+    margin:  0;
 }
 
 .test{
     position: absolute;
     background-color: transparent;
-    top: 170px;
-    left: 40%;
+    top: 25px;
+    left: 39.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     color: #fff;
 }
 
-div.dis{
-    display: block;
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.scrpiti{
+.row .scrpiti{
     background-color: #fff;
-    width: 875px;
+    width: 50%;
     height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
+    display: inline-block;
     color: #000;
-    line-height: 50px;
-    padding-left: 200px;
+    line-height: 36px;
     padding-top: 25px;
-    padding-right: 0px;
     bottom: 280px;
-    left: 500px;
-    text-align: center;
+    border-top: 3px solid #000;
     border-bottom: 3px solid #000;
 }
 
-.scrpiti h2{
+.qntdQ{
+    display: inline-block;
+    position: relative;
+    left: 65px;
+    top: 25px;
+}
+
+.scrpiti .qntdQ h2{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    left: 50px;
+}
+
+.scrpiti .qntdQ h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.qntdR{
+    display: inline-block;
+    position: relative;
+    left: 115px;
+    top: 25px;
+}
+
+.scrpiti .qntdR h2{
+    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
 }
 
-.scrpiti h3{
+.scrpiti .qntdR h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
+    text-align: center;
+}
+
+button
+{	
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  	background-color: #013cff;
+    border: 3px solid #353535;
+  	color: #FFFFFF;
+  	font-size: 28px;
+  	padding: 20px;
+  	width: 320px;
+  	transition: all 0.5s;
+  	cursor: pointer;
+	left: 25%;
+    top: 75px;
+	border-radius: 8px;
+	transform: scale(1);
+}
+
+button:hover
+{
+	margin-right: 20px;	
+    background-color: #353535;
+    border: 3px solid black;
+}
+
+.button span {
+  	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;	
+}
+
+.button span:after {
+  content: '\21a0';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  	padding-right: 50px;
+  	margin-right: 20px;
+}
+
+.button:hover span:after {
+  	opacity: 1;
+  	right: 0;
+}
+
+.row .colu{
+    border-radius: 100px;
+	display: flex;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 280px;
+}
+
+.row .colu2{
+    border-radius: 100px;
+	display: flex;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 280px;
 }
 
 .img-hotel{
     position: absolute;
-    height: 400px;
+    height: 496px;
     min-width: auto;
-    top: 510px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+}
+
+.img-hotel2{
+    position: absolute;
+    height: 496px;
+    left: 0px;
+    min-width: auto;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
 }
 
 .frase{
+    background-color: #151515;
     position: relative;
-    color: #000;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    width: 670px;
+    height: 100px;
+    left: 24.8%;
+    text-align: center;
     font-size: 30px;
-    bottom: 275px;
-  
+    bottom: 294px;
 }
+
+.frase h3{
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 6.5px;
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+}
+

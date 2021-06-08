@@ -11,3 +11,4 @@ qtndQuartos.textContent += hotel.quartos;
 
 var qtndRservados = document.getElementById('reserva');
 qtndRservados.textContent += hotel.reservados;
+
