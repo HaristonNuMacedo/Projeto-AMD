@@ -6,7 +6,7 @@ var subResultado = document.getElementById('subtotalvalor');
 subResultado.textContent = 'R$' + subtotal;
 
 var freteResultado = document.getElementById('fretevalor');
-freteResultado.textContent = frete;
+freteResultado.textContent = 'R$' + frete;
 
 var totalResultado = document.getElementById('totalvalor');
 totalResultado.textContent = total;
