@@ -22,4 +22,4 @@ var processador = {
 }
 
 var subPorcessor = document.getElementById('processor')
-subProcessor += processador; 
+subProcessor.textContent = processador.nome; 
