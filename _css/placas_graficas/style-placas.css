@@ -314,6 +314,10 @@ div.menu h1{
 }
 
 .season1-rx6000 {
+    background-color: #fff;
+}
+
+.pdv1{
     position: relative;
     width: 100%;
     min-height: 400px;
@@ -335,7 +339,7 @@ div.menu h1{
     width: 500px;
     height: 200px;
     top: 65px;
-    left: 90%;
+    left: 33%;
 }
 
 .text-radeon1 h2{
