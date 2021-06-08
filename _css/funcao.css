@@ -1,12 +1,14 @@
 body{
     background-color: #353535;
+    margin: -8px;
+    width: 100%;
 }
 
 header{
     background-color: black;
     height: 300px;
     position: relative;
-    margin:  0;
+    margin: 0;
 }
 
 .test{
@@ -28,7 +30,7 @@ header{
 
 .row .scrpiti{
     background-color: #fff;
-    width: 50%;
+    width: 53.5%;
     height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
@@ -36,6 +38,7 @@ header{
     color: #000;
     line-height: 36px;
     padding-top: 25px;
+    left: 6px;
     bottom: 280px;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
@@ -44,7 +47,7 @@ header{
 .qntdQ{
     display: inline-block;
     position: relative;
-    left: 65px;
+    left: 80px;
     top: 25px;
 }
 
@@ -64,7 +67,7 @@ header{
 .qntdR{
     display: inline-block;
     position: relative;
-    left: 115px;
+    left: 140px;
     top: 25px;
 }
 
@@ -95,7 +98,7 @@ button
   	width: 320px;
   	transition: all 0.5s;
   	cursor: pointer;
-	left: 25%;
+	left: 26%;
     top: 75px;
 	border-radius: 8px;
 	transform: scale(1);
@@ -178,18 +181,18 @@ button:hover
     position: relative;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    width: 670px;
-    height: 100px;
-    left: 24.8%;
+    width: 691px;
+    height: 110px;
+    left: 24.6%;
     text-align: center;
     font-size: 30px;
-    bottom: 294px;
+    bottom: 317px;
 }
 
 .frase h3{
     position: relative;
-    padding-top: 7px;
-    padding-bottom: 6.5px;
+    padding-top: 15px;
+    padding-bottom: 22px;
     border-bottom: 3px solid #000;
     border-top: 3px solid #000;
 }
