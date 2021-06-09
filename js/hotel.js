@@ -12,10 +12,22 @@ qtndQuartos.textContent += hotel.quartos;
 var qtndRservados = document.getElementById('reserva');
 qtndRservados.textContent += hotel.reservados;
 
-var reserva = 0;
 function btnReserva(){
-    return this.reservados - 1;
+    hotel.reservados--;
+    mostrar(hotel.reservados);
 }
+
+
+function mostrar(valor) {
+
+    if(hotel.reservados > 0){
+        document.getElementById("resultado").innerHTML = valor;
+    }
+    else{
+        document.getElementById("resultado").innerHTML = 'Processamento Esgotado!';
+    }
+}
+
 
 
 
