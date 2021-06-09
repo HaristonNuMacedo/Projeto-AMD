@@ -70,7 +70,7 @@ header.col{
 .qntdR{
     display: inline-block;
     position: relative;
-    left: 275px;
+    left: 280px;
     top: 15px;
 }
 
@@ -145,7 +145,7 @@ button:hover
   content: '\21a0';
   position: absolute;
   opacity: 0;
-  top: -5px;
+  top: -4px;
   right: -30px;
   transition: 0.5s;
 }

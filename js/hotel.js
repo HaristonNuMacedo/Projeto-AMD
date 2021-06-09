@@ -21,10 +21,10 @@ function btnReserva(){
 function mostrar(valor) {
 
     if(hotel.reservados > 0){
-        document.getElementById("resultado").innerHTML = valor;
+        document.getElementById("resultado").textContent = valor;
     }
     else{
-        document.getElementById("resultado").innerHTML = 'Processamento Esgotado!';
+        document.getElementById("resultado").textContent = 'Processamento Esgotado!';
     }
 }
 
