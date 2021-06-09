@@ -237,7 +237,6 @@ button:hover
 
 
 
-
 /* Depois da Parte Principal */
 header.row {
     position: relative;
@@ -391,7 +390,7 @@ div.menu h1{
     position: relative;
     width: 650px;
     top: 55px;
-    right: 20px;
+    right: 100px;
 }
 
 .season2 h2{
@@ -409,5 +408,38 @@ div.menu h1{
 
 .sobreImg{
     position: relative;
+    left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row3{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 550px;
     left: 30px;
 }
