@@ -230,6 +230,7 @@ header.row {
     width: 100.5%;
     background-color: #151515;
     margin: 0px;
+    border-bottom: 3px solid black;
 }
 
 /* Estilo do cabeçalho com o menu */
@@ -352,3 +353,41 @@ div.menu h1{
     display: inline-block;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.row2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 550px;
+}
+
+.row2 .season2{
+    position: relative;
+    width: 650px;
+    top: 55px;
+    right: 20px;
+}
+
+.season2 h2{
+    position: relative;
+    font-family: 'Calibri';
+    font-size: 40px;
+}
+
+.season2 p{
+    position: relative;
+    font-family: 'Calibri';
+    font-size: 22px;
+    text-align: justify;
+}
