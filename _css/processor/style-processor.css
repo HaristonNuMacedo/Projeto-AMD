@@ -281,6 +281,7 @@ div.menu h1{
 
 
 
+
         /* 1° Sessão */
 section.season1-ryzen3 {
     position: relative;
@@ -297,11 +298,13 @@ section.season1-ryzen3 {
     margin-bottom: 0px;
     display: block;
     justify-content: space-between;
+    cursor: pointer;
 }
+
 
 .btn1 {
     position: absolute;
-    top: 45px;
+    top: 55px;
     right: 50px;
 }
 
@@ -440,7 +443,7 @@ div.btn2 {
     height: 105px;
     position: relative;
     text-align: end;
-    margin: -11.1px auto 0px auto;
+    margin: -11.6px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding-top: 35px;
     padding-right: 50px;
@@ -556,7 +559,7 @@ section.season3-ryzen7 {
     height: 105px;
     position: relative;
     text-align: start;
-    margin: -11.1px auto 0px auto;
+    margin: -11.6px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding-top: 35px;
     padding-left: 50px;
@@ -669,7 +672,7 @@ section.season4-ryzen9 {
     height: 100px;
     position: relative;
     text-align: end;
-    margin: -11.1px auto 0px auto;
+    margin: -11.6px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding-top: 35px;
     padding-right: 50px;
