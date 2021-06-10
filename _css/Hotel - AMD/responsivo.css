@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 1400px){
+
+    .col img{
+        width: 100.5%; 
+        height: 700px;
+    }
+
+    header.col{
+        height: 400px;
+    }
+
+    .row .scrpiti{
+        width: 73.5%;
+        left: 4px;
+    }
+
+    .qntdQ{
+        left: 215px;
+    }
+
+    .qntdR{
+        left: 375px;
+    } 
+
+    .row2 .season2{
+        width: 700px;
+        top: 55px;
+        right: 120px;
+    }
+
+    div.menu ul {
+        left: 505px; 
+    }
+
+    .frase{
+        left: 30%;
+    }
+}

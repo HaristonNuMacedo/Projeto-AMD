@@ -11,6 +11,12 @@ header.col{
     margin: 0;
 }
 
+.col img{
+    position: relative;
+    width: 100.5%; 
+    height: 600px;
+}
+
 .test{
     position: absolute;
     background-color: transparent;
@@ -30,7 +36,7 @@ header.col{
 
 .row .scrpiti{
     background-color: #151515;
-    width: 53%;
+    width: 55%;
     height: 325px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
@@ -38,10 +44,15 @@ header.col{
     color: #000;
     line-height: 36px;
     padding-top: 25px;
-    left: 6px;
+    left: 3px;
     bottom: 280px;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
+}
+
+.row img{
+    width: 100%;
+    height: 500px;
 }
 
 .qntdQ{
@@ -70,7 +81,7 @@ header.col{
 .qntdR{
     display: inline-block;
     position: relative;
-    left: 145px;
+    left: 155px;
     top: 15px;
 }
 
@@ -168,6 +179,7 @@ button:hover
     height: 100%;
     object-fit: cover;
     bottom: 280px;
+    left: 3.5px;
 }
 
 .row .colu2{
@@ -203,16 +215,18 @@ button:hover
     background-color: #151515;
     position: relative;
     border: none; margin: none; padding: none;
-    width: 691px;
+    width: 707px;
     height: 130px;
-    left: 24.6%;
+    left: 24%;
     text-align: center;
-    bottom: 317px;
+    bottom: 467px;
 }
 
 .frase h3{
     padding-top: 7px;
     padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-size: 38px;
@@ -258,7 +272,7 @@ div.menu ul {
     text-transform: uppercase;
     position: relative;
     top: -5px;
-    left: 295px; 
+    left: 292px; 
     right: 290px;
 }
 
@@ -391,9 +405,9 @@ div.menu h1{
 
 .row2 .season2{
     position: relative;
-    width: 650px;
+    width: 580px;
     top: 55px;
-    right: 100px;
+    right: 25px;
 }
 
 .season2 h2{
