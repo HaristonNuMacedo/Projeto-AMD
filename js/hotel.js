@@ -31,8 +31,3 @@ function mostrar(valor) {
 
 
 
-
-
-
-
-

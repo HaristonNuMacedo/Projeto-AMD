@@ -237,6 +237,7 @@ button:hover
 
 
 
+
 /* Depois da Parte Principal */
 header.row {
     position: relative;
@@ -378,6 +379,8 @@ div.menu h1{
 
 
 
+
+
 .row2{
     position: relative;
     width: 100%;
@@ -419,6 +422,38 @@ div.menu h1{
 
 
 
+
+
+
+.promocao{
+    background-color: transparent;
+    position: fixed;
+    display: block;
+    bottom: -20px;
+    right: 5px;
+    height: 400px;
+}
+
+.promocao img{
+    height: 300px;
+    width: auto;
+}
+
+.promo-text{
+    position: relative;
+    background-color: rgb(184, 37, 37);
+    height: 70px;
+    top: -35px;
+}
+
+.promo-text p{
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
 
 
 
