@@ -1,7 +1,7 @@
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1440px){
 
-    .col img{
+    img.te1{
         width: 100.5%; 
         height: 700px;
     }
@@ -11,26 +11,35 @@
     }
 
     .row .scrpiti{
-        width: 73.5%;
-        left: 4px;
+        width: 75%;
+        left: 9px;
     }
 
     .qntdQ{
-        left: 215px;
+        left: 175px;
     }
 
     .qntdR{
         left: 375px;
     } 
 
+    .img-hotel2{
+        left: 9px;
+
+    }
+
+    button{	
+	    left: 32.5%;
+    }
+
     .row2 .season2{
         width: 700px;
         top: 55px;
-        right: 120px;
+        right: 90px;
     }
 
     div.menu ul {
-        left: 505px; 
+        left: 477px; 
     }
 
     .frase{
