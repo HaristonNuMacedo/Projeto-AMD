@@ -451,6 +451,7 @@ div.menu h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #fff;
+    top: 5px;
     font-size: 38px;
     text-align: center;
 }

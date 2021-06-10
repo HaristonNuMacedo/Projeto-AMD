@@ -28,6 +28,3 @@ function mostrar(valor) {
     }
 }
 
-
-
-
