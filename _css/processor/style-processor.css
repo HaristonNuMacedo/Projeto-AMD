@@ -292,9 +292,10 @@ section.season1-ryzen3 {
 .img-s1 {
     position: relative;
     width: 100%;
-    top: 0px;
-    margin: 0px;
-    display: flex;
+    top: -11.6px;
+    margin-top: 11.6px;
+    margin-bottom: 0px;
+    display: block;
     justify-content: space-between;
 }
 
@@ -315,7 +316,7 @@ section.season1-ryzen3 {
     height: 105px;
     position: relative;
     text-align: start;
-    margin: -11.5px auto 40px auto;
+    margin: -11.6px auto 30px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding-top: 35px;
     padding-left: 50px;
@@ -380,6 +381,17 @@ a.botao-color-1:hover span:after {
     opacity: 1;
     right: 190px;
 }
+
+.hidden3 {
+    position: static;
+    display: none;
+    text-align: center;
+    margin: 50px 50px 25px 50px;
+    /* margin: TOP -- RIGTH -- BOTTOM -- LEFT */
+}
+
+
+
 
 
 
