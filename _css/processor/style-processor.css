@@ -296,12 +296,11 @@ section.season1-ryzen3 {
     width: 100%;
     top: -11.6px;
     margin-top: 11.6px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     display: block;
     justify-content: space-between;
     cursor: pointer;
 }
-
 
 .btn1 {
     position: absolute;
@@ -386,11 +385,7 @@ a.botao-color-1:hover span:after {
     right: 190px;
 }
 
-.mostrar-02 h3 sup{
-    position: relative;
-    font-size: 12px;
-    top: -8px;
-}
+
 
 
 
@@ -510,6 +505,12 @@ a.botao-color-two:hover span:after {
     left: 178px;
 }
 
+.mostrar-02 h3 sup{
+    position: relative;
+    font-size: 12px;
+    top: -8px;
+}
+
 
 
 
@@ -541,12 +542,15 @@ section.season2-ryzen5 {
 .img-s2 {
     position: relative;
     width: 100%;
-    top: 0px;
-    display: flex;
+    top: -11.6px;
+    margin-top: 11.6px;
+    margin-bottom: 40px;
+    display: block;
     justify-content: space-between;
+    cursor: pointer;
 }
 
-div.btn2 {
+.btn2 {
     position: absolute;
     top: 45px;
     left: 50px;
@@ -629,6 +633,8 @@ a.botao-color-2:hover span:after {
     opacity: 1;
     left: 190px;
 }
+
+
 
 
 
