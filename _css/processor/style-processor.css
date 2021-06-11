@@ -283,7 +283,7 @@ div.menu h1{
 
 
         /* 1° Sessão */
-        
+
 section.season1-ryzen3 {
     position: relative;
     background-color: #fff;
@@ -384,6 +384,12 @@ a.botao-color-1:hover span {
 a.botao-color-1:hover span:after {
     opacity: 1;
     right: 190px;
+}
+
+.mostrar-02 h3 sup{
+    position: relative;
+    font-size: 12px;
+    top: -8px;
 }
 
 
