@@ -385,13 +385,124 @@ a.botao-color-1:hover span:after {
     right: 190px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* MOSTRAR MAIS RYZEN 3 */
+
 .hidden3 {
     position: static;
     display: none;
     text-align: center;
     margin: 50px 50px 25px 50px;
     /* margin: TOP -- RIGTH -- BOTTOM -- LEFT */
+    cursor: auto;
 }
+
+div.mostrar-01{
+    display: flex;
+    padding-top: 15px;
+}
+
+div.mostrar-01 p{
+    text-align: justify;
+    padding: 0px 0px 0px 50px;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
+div.mostrar-02 {
+    display: block;
+    top: 45.5px;
+    right: 0px;
+    width: 45%;
+    margin-bottom: 75px;
+    line-height: 35px;
+}
+
+div.mostrar-02 h2{
+    display: block;
+    color: #000;
+    top: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+div.mostrar-02 h3{
+    display: block;
+    color: #000;
+    top: 42px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.botao-color-two {
+    background-color: black;
+    display: inline;
+    color: #fff;
+    border: 3px solid #595c5e;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    font-size: 17px;
+    font-family: Comic Sans MS;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.botao-color-two {
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+.botao-color-two:hover{
+    background-color: #595c5e;
+    color: #000;
+    border: 3px solid #000;
+}
+
+a.botao-color-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; 
+}
+  
+a.botao-color-two span:after {
+    color: #000000;
+    content: '\22d9';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 160px;
+    transition: 0.5s;
+}
+  
+a.botao-color-two:hover span {
+    padding-left: 5px;
+}
+  
+a.botao-color-two:hover span:after {
+    opacity: 1;
+    left: 178px;
+}
+
+
+
 
 
 
@@ -415,7 +526,7 @@ section.season2-ryzen5 {
     position: relative;
     padding-bottom: 0px;
     height: 135px;
-    background-color: #e15112;
+    background-color: #e15112; 
 }
 
 .img-s2 {
