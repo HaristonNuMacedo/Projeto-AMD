@@ -3,6 +3,7 @@
 /* Cabeçalho */
 body{
     margin: 0px;
+    background-color: #484d50;
 }
 
 header {
@@ -288,7 +289,7 @@ section.season1-ryzen3 {
     position: relative;
     background-color: #fff;
     padding: 0px;
-    margin: 0px;
+    margin-top: 15px;
 }
 
 .img-s1 {
@@ -296,7 +297,7 @@ section.season1-ryzen3 {
     width: 100%;
     top: -11.6px;
     margin-top: 11.6px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     display: block;
     justify-content: space-between;
     cursor: pointer;
@@ -431,7 +432,8 @@ div.mostrar-02 {
     top: 45.5px;
     right: 0px;
     width: 45%;
-    margin-bottom: 75px;
+    height: 350px;
+    margin-top: 50px;
     line-height: 35px;
 }
 
@@ -468,9 +470,8 @@ div.mostrar-02 h3{
 }
 
 .botao-color-two {
-    position: relative;
-    top: 20px;
-    left: 0px;
+    display: inline;
+    line-height: 100px;
 }
 
 .botao-color-two:hover{
@@ -534,9 +535,10 @@ a.botao-color-two:hover span:after {
 /* 2° Sessão */
 section.season2-ryzen5 {
     position: relative;
-    padding-bottom: 0px;
-    height: 135px;
     background-color: #e15112; 
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
 }
 
 .img-s2 {
@@ -552,7 +554,7 @@ section.season2-ryzen5 {
 
 .btn2 {
     position: absolute;
-    top: 45px;
+    top: 52px;
     left: 50px;
 }
 
@@ -634,9 +636,27 @@ a.botao-color-2:hover span:after {
     left: 190px;
 }
 
+.hidden5{
+    position: static;
+    display: none;
+    text-align: center;
+    margin: 50px 50px 25px 50px;
+    /* margin: TOP -- RIGTH -- BOTTOM -- LEFT */
+    cursor: auto;
+}
 
+div.mostrar-011{
+    display: flex;
+    padding-top: 0px;
+}
 
-
+div.mostrar-011 p{
+    color: #fff;
+    text-align: justify;
+    padding: 0px 0px 0px 50px;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
 
 
 
@@ -656,21 +676,24 @@ a.botao-color-2:hover span:after {
 /* 3° Sessão */
 section.season3-ryzen7 {
     position: relative;
-    height: 135px;
     background-color: #fff;
+    padding: 0px;
 }
 
 .img-s3 {
     position: relative;
     width: 100%;
-    top: 0px;
-    display: flex;
+    top: -11.6px;
+    margin-top: 11.6px;
+    margin-bottom: 0px;
+    display: block;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .btn3 {
     position: absolute;
-    top: 45px;
+    top: 52px;
     right: 50px;
 }
 
@@ -685,7 +708,7 @@ section.season3-ryzen7 {
     height: 105px;
     position: relative;
     text-align: start;
-    margin: -11.6px auto 0px auto;
+    margin: -11.6px auto 30px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding-top: 35px;
     padding-left: 50px;
@@ -751,6 +774,29 @@ a.botao-color-3:hover span:after {
     right: 190px;
 }
 
+.hidden7 {
+    position: static;
+    display: none;
+    text-align: center;
+    margin: 50px 50px 25px 50px;
+    /* margin: TOP -- RIGTH -- BOTTOM -- LEFT */
+    cursor: auto;
+}
+
+div.mostrar-021{
+    display: flex;
+    padding-top: 15px;
+}
+
+div.mostrar-021 p{
+    text-align: justify;
+    padding: 0px 0px 0px 50px;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
+
+
 
 
 
@@ -769,21 +815,23 @@ a.botao-color-3:hover span:after {
 /* 4° Sessão */
 section.season4-ryzen9 {
     position: relative;
-    height: 130px;
     background-color: #e15112;
 }
 
 .img-s4{
     position: relative;
     width: 100%;
-    top: 0px;
-    display: flex;
+    top: -11.6px;
+    margin-top: 11.6px;
+    margin-bottom: 0px;
+    display: block;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .btn4 {
     position: absolute;
-    top: 45px;
+    top: 52px;
     left: 50px;
 }
 
@@ -798,7 +846,7 @@ section.season4-ryzen9 {
     height: 100px;
     position: relative;
     text-align: end;
-    margin: -11.6px auto 0px auto;
+    margin: -11.6px auto 30px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding-top: 35px;
     padding-right: 50px;
@@ -855,6 +903,29 @@ a.botao-color-4:hover span:after {
     opacity: 1;
     left: 190px;
 }
+
+.hidden9 {
+    position: static;
+    display: none;
+    text-align: center;
+    margin: 50px 50px 25px 50px;
+    /* margin: TOP -- RIGTH -- BOTTOM -- LEFT */
+    cursor: auto;
+}
+
+div.mostrar-031{
+    display: flex;
+    padding-top: 15px;
+}
+
+div.mostrar-031 p{
+    color: #fff;
+    text-align: justify;
+    padding: 0px 0px 0px 50px;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
 
 
 
