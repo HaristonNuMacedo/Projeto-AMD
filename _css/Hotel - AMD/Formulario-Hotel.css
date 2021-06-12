@@ -50,6 +50,13 @@ div.menu h1{
     left: 470px;
 }
 
+@media screen and (min-width: 1440px){
+    .botao-color-two{
+        left: 580px;
+    }
+}
+
+
 .botao-color-two:hover{
     background-color: rgba(255, 255, 255, 0.5);
     color: #000;
@@ -75,6 +82,12 @@ div.menu h1{
     position: relative;
     top: -10.5px;
     margin-left: 740px;
+}
+
+@media screen and (min-width: 1440px){
+    .botao-cont {
+        left: 100px;
+    }
 }
 
 .botao-cont:hover{
