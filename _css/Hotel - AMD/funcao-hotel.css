@@ -475,6 +475,32 @@ div.menu h1{
     text-align: center;
 }
 
+.btn3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.botao-color-3 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.2s;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: Comic Sans MS;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+.botao-color-3:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
 
 
 
@@ -498,3 +524,5 @@ div.menu h1{
     top: 550px;
     left: 30px;
 }
+
+
