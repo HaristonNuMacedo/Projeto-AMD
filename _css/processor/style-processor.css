@@ -9,8 +9,9 @@ body{
 header {
     position: relative;
     background-color: black;
-    height: 130px;
+    height: 100px;
     margin: 0px;
+    top: 0px;
 }
 
 div.teste {
@@ -22,7 +23,7 @@ div.teste {
 .logo {
     position: absolute;
     left: 30px;
-    top: 30px;
+    top: 18px;
 }
 
 /* Estilo do cabeçalho com o menu */
@@ -34,7 +35,7 @@ div.menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 40px;
+    top: 28px;
     left: 260px;
 }
 
@@ -207,7 +208,7 @@ div.menu h1{
 
 /* Local de pesquisa */
 .lupa {
-    top: 40px;
+    top: 28px;
     margin:0 5px;
     position:relative;
     display:inline-block;
@@ -231,7 +232,7 @@ div.menu h1{
 }
 
 .search-content {
-    top: 86px;
+    top: 76px;
     right: 5px;
     display: none;
     position: absolute;
