@@ -152,6 +152,11 @@ button:hover
   	transition: 0.5s;	
 }
 
+.button span a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .button span:after {
   content: '\21a0';
   position: absolute;

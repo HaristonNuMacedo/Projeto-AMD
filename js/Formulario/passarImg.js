@@ -49,7 +49,7 @@ function setaImagem(){
                 elemento.classList.add("ativo");
                 this.legenda(elemento);
             }
-            intervalo = setInterval(settings.slide,3000);
+            intervalo = setInterval(settings.slide,4000);
         },
 
         legenda: function(obj){
@@ -66,7 +66,7 @@ function setaImagem(){
     settings.legenda(elemento);
 
     //chama o slide à um determinado tempo
-    var intervalo = setInterval(settings.slide,3000);
+    var intervalo = setInterval(settings.slide,4000);
     document.querySelector(".next").addEventListener("click",settings.proximo,false);
     document.querySelector(".prev").addEventListener("click",settings.anterior,false);
     document.querySelector(".ryzen").addEventListener("click",settings.anterior,false);

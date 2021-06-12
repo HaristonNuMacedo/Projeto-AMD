@@ -2,14 +2,169 @@ body{
     background-color: #353535;
 }
 
+/* Cabeçalho */
+header {
+    position: relative;
+    background-color: black;
+    height: 75px;
+    margin-top: -8px;
+    width: 100%;
+}
+
+/* Estilo do cabeçalho com o menu */
+div.menu {
+    position: relative;
+    left: 400px;
+}
+
+div.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -5px;
+}
+
+div.menu h1{ 
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* DROPDOWN NO MENU PRICIPAL */
+
+.btn-line span:nth-child(1){
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0px;;
+    width: 5px;
+    height:5px;
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+
+    transition:.75s;
+}
+    
+.btn-line:hover span:nth-child(1){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(2){
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width:5px;
+    height:5px;
+    border-top:2px solid #fff;
+    border-right:2px solid #fff;
+ 
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(2){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(3){
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:5px;
+    height:5px;
+    border-bottom:2px solid #fff;
+    border-left:2px solid #fff;
+
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(3){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(4){
+    content:'';
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:5px;
+    height:5px;
+    border-bottom:2px solid #fff;
+    border-right:2px solid #fff;
+
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(4){
+    width:50%;
+    height:50%;
+}
+
+.btn-line{
+    top: 8px;
+    margin:0 5px;
+    position:relative;
+    display:inline-block;
+    padding: 8px 15px!important;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-family: 'Calibri';
+    font-size:16px;
+    font-weight: bold;
+    -webkit-transition:.75s;
+    transition:.75s;
+    overflow:hidden;
+}
+
+.btn-line:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a,img {
     position: fixed;
     border: none;
-    width: 96%;
+    width: 100%;
     height: auto;
-    margin-left: 0px;
+    margin-left: -4px;
     top: -150px;
-    padding-left: 26.5px;
 }
 
 .trs {
@@ -44,18 +199,38 @@ figure:hover span {
     
 figure {
     max-width: 100%;
-    height: 660px;
-    position: relative;
+    height: 650px;
+    position: fixed;
     overflow: hidden;
     margin: 0px auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .formulario{
     position: absolute;
     left: 515px;
-    top: 60px;
+    top: 100px;
     border: 3px solid black; 
-    width: 300px;
+    width: 320px;
     height: 440px;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.7)
@@ -77,7 +252,7 @@ figure {
     font-family: 'Calibri';
     font-size: 20px;
     padding: 5px 5px 5px 5px;
-    width: 280px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
@@ -91,7 +266,7 @@ figure {
     font-family: 'Calibri';
     font-size: 20px;
     padding: 5px 5px 5px 5px;
-    width: 280px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
@@ -120,22 +295,21 @@ figure {
     font-family: 'Calibri';
     font-size: 20px;
     padding: 5px 5px 5px 5px;
-    width: 280px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
 .campo-email label{
     color: #fff;
     font-size: 22px;
-    margin-left: 10px;
 }
 
 .campo-email input{
     color: black;
     font-family: 'Calibri';
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px 5px 5px 5px;
-    width: 280px;
+    width: 300px;
     margin-bottom: 25px;
 }
 
@@ -146,15 +320,29 @@ figure {
 
 .botaoEnv {
     position: relative;
+    width: 115px;
     padding: 10px 25px;
+    color: #000;
+    font-family: sans-serif;
     font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
 }
 
 .botaoCan {
     position: relative;
+    width: 115px;
     padding: 10px 25px;
     left: 78px;
+    color: #000;
+    font-family: sans-serif;
     font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
 }
 
 
