@@ -1,0 +1,160 @@
+body{
+    background-color: #353535;
+}
+
+a,img {
+    position: fixed;
+    border: none;
+    width: 96%;
+    height: auto;
+    margin-left: 0px;
+    top: -150px;
+    padding-left: 26.5px;
+}
+
+.trs {
+    -webkit-transition:all ease-out 0.5s;
+    -moz-transition:all ease-out 0.5s;
+    -o-transition:all ease-out 0.5s;
+    -ms-transition:all ease-out 0.5s;
+    transition:all ease-out 0.5s;
+}  
+
+#slider {
+    position: relative; 
+}
+
+#slider a { 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+.ativo {
+    opacity: 1!important; 
+    filter: alpha(opacity=100)!important;
+}
+
+figure:hover span {
+    opacity: 0.76;
+    filter:alpha(opacity=76);
+}
+    
+figure {
+    max-width: 100%;
+    height: 660px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.formulario{
+    position: absolute;
+    left: 515px;
+    top: 60px;
+    border: 3px solid black; 
+    width: 300px;
+    height: 440px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+@media screen and (min-width: 1440px){
+    .formulario{
+        left: 620px;
+    }
+}
+
+.campo-nome label{
+    color: #fff;
+    font-size: 22px;
+}
+
+.campo-nome input{
+    color: black;
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.campo-cpf label{
+    color: #fff;
+    font-size: 22px;
+}
+
+.campo-cpf input{
+    color: black;
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.campo-nasc label{
+    color: #fff;
+    font-size: 22px;
+}
+
+.campo-nasc input{
+    color: black;
+    font-weight: 600;
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding: 5px 5px 5px 15px;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+.campo-tel label{
+    color: #fff;
+    font-size: 22px;
+}
+
+.campo-tel input{
+    color: black;
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.campo-email label{
+    color: #fff;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.campo-email input{
+    color: black;
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 280px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+.botaoEnv {
+    position: relative;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.botaoCan {
+    position: relative;
+    padding: 10px 25px;
+    left: 78px;
+    font-size: 15px;
+}
+
+
