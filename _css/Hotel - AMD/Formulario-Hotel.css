@@ -8,13 +8,13 @@ header {
     background-color: black;
     height: 75px;
     margin-top: -8px;
-    width: 100%;
 }
 
 /* Estilo do cabeçalho com o menu */
 div.menu {
     position: relative;
-    left: 400px;
+    left: 430px;
+    width: 500px;
 }
 
 div.menu ul {
