@@ -224,7 +224,7 @@ button:hover
     height: 130px;
     left: 24%;
     text-align: center;
-    bottom: 467px;
+    bottom: 465px;
 }
 
 .frase h3{
@@ -258,7 +258,7 @@ button:hover
 
 
 /* Depois da Parte Principal */
-header.row {
+header.row2 {
     position: relative;
     top: 528px;
     width: 100.5%;
@@ -432,6 +432,132 @@ div.menu h1{
     position: relative;
     left: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seasonSuite00{
+    position: relative;
+    background-color: #151515;
+    width: 100.5%;
+    height: 350px;
+    top: 555px;
+}
+
+.text h2{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.img-Suite3{
+    position: absolute;
+    display: inline-block;
+}
+
+.img-Suite3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    padding-left: 187px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seasonSuite22{
+    position: relative;
+    background-color: #151515;
+    width: 100.5%;
+    height: 350px;
+    top: 555px;
+}
+
+.text2 h2{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.img-Suite2{
+    position: absolute;
+    display: inline-block;
+}
+
+.img-Suite2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    padding-left: 187px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seasonSuite44{
+    position: relative;
+    background-color: #151515;
+    width: 100.5%;
+    height: 350px;
+    top: 555px;
+}
+
+.text3 h2{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.img-Suite1{
+    position: absolute;
+    display: inline-block;
+}
+
+.img-Suite1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    padding-left: 187px;
+}
+
+
+
 
 
 

@@ -39,10 +39,23 @@
     }
 
     div.menu ul {
-        left: 477px; 
+        left: 452px; 
     }
 
     .frase{
         left: 30%;
     }
+
+    .img-Suite3 img{
+        padding-left: 250px;
+    }
+
+    .img-Suite2 img{
+        padding-left: 250px;
+    }
+
+    .img-Suite1 img{
+        padding-left: 250px;
+    }
+    
 }
