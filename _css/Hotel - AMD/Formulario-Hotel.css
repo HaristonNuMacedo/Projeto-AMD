@@ -9,8 +9,8 @@ div.tr {
     height: 60px;
     top: -470px;
     margin-top: -4px;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
 }
 
 /* Estilo do cabeçalho com o menu */
@@ -81,7 +81,7 @@ div.menu h1{
 
 .botao-cont {
     position: relative;
-    top: -10.5px;
+    top: -10.8px;
     margin-left: 740px;
 }
 
