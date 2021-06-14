@@ -342,8 +342,9 @@ section.season1 {
     width: 800px;
     height: 300px;
     bottom: 75px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
+    right: 285px;
 }
 
 h2.text-Minha-Empresa {
@@ -393,7 +394,7 @@ h3.text-Minha-Empresa{
 .botao-color {
     position: absolute;
     top: 220px;
-    left: 50px;
+    left: 325px;
 }
 
 .botao-color:hover {
