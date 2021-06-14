@@ -1,6 +1,5 @@
      /* PARTE DO SITE MOBILE */
 
-
      @media screen and (max-width: 480px) {
         header{
             width: 480px;
@@ -136,5 +135,26 @@
         }
     
     }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 1440px) {
+        .text-season1{
+            right: 385px;
+        }
+    }
+
     
     

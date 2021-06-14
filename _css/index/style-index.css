@@ -337,7 +337,7 @@ section.season1 {
     object-fit: cover;
 }
 
-#text-season1{
+.text-season1{
     position: absolute;
     width: 800px;
     height: 300px;
