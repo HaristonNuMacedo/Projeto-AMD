@@ -264,7 +264,7 @@ header.row2 {
     width: 100.5%;
     background-color: #151515;
     margin: 0px;
-    z-index: 0;
+    z-index: 1;
     display: flex;
     border-bottom: 3px solid black;
 }
@@ -587,6 +587,7 @@ div.menu h1{
     bottom: -20px;
     right: 5px;
     height: 400px;
+    z-index: 1;
 }
 
 .promocao img{
