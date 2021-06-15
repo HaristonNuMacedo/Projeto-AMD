@@ -10,6 +10,11 @@
         height: 400px;
     }
 
+    .test{
+        top: 40px;
+        left: 41.5%;
+    }
+
     .row .scrpiti{
         width: 75%;
         left: 9px;
@@ -29,7 +34,7 @@
     }
 
     button{	
-	    left: 32.5%;
+	    left: 34.8%;
     }
 
     .row2 .season2{
@@ -46,16 +51,15 @@
         left: 30%;
     }
 
-    .img-Suite3 img{
-        padding-left: 250px;
+    .img-Suite3 .pst1{
+        margin-left: 305px;
     }
 
-    .img-Suite2 img{
-        padding-left: 250px;
+    .img-Suite2 .fst1{
+        margin-left: 305px;
     }
 
-    .img-Suite1 img{
-        padding-left: 250px;
+    .img-Suite1 .vst1{
+        margin-left: 305px;
     }
-    
 }
