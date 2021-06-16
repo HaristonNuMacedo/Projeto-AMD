@@ -151,7 +151,19 @@
 
 
     @media screen and (min-width: 1440px) {
+
+
+        /* 1° Sessão do site */
+        section.season1{
+            height: 650px;
+        }
+
+        .column video{
+            height: 850px;
+        }
+
         .text-season1{
+            bottom: 180px;
             right: 385px;
         }
     }
