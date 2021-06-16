@@ -1,5 +1,5 @@
 
-var countDownDate = new Date("Jun 11, 2021 11:30:25").getTime();
+var countDownDate = new Date("Jun 17, 2021 11:30:25").getTime();
 var x = setInterval(function() {
 
   var now = new Date().getTime();
@@ -18,6 +18,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("data").innerHTML = "EXPIRED";
   }
+  
 }, 1000);
 
 
