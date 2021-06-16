@@ -7,10 +7,16 @@ div.tr {
     position: relative;
     background-color: transparent;
     height: 60px;
-    top: -470px;
+    top: -510px;
     margin-top: -4px;
     border-top: 4px solid #000;
     border-bottom: 4px solid #000;
+}
+
+@media screen and (min-width: 1440px){
+    div.tr{
+        top: -470px;
+    }
 }
 
 /* Estilo do cabeçalho com o menu */
@@ -119,9 +125,15 @@ a,img {
     position: fixed;
     border: none;
     width: 100%;
-    height: 950px;
+    height: 808px;
     margin-left: -4px;
     top: -150px;
+}
+
+@media screen and (min-width: 1440px){
+    a,img{
+        height: 950px;
+    }
 }
 
 .trs {
@@ -185,7 +197,7 @@ figure {
 .formulario{
     position: relative;
     left: 515px;
-    top: 160px;
+    top: 100px;
     border: 3px solid black; 
     width: 320px;
     height: 480px;
@@ -195,7 +207,8 @@ figure {
 
 @media screen and (min-width: 1440px){
     .formulario{
-        left: 620px;
+        left: 650px;
+        top: 160px;
     }
 }
 
