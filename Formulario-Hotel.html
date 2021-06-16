@@ -57,12 +57,15 @@
 
             <div class="campo-tel">
                 <label for="tel">Telefone: </label><br>
-                <input type="tel" id="tel" name="tel" required><br>
-            </div>
+                <input type="text" class= "form-control" id ="txtCel" pattern="[(]\d{2}[)]\s\d{5}-\d{4}" placeholder="Ex.: (xx) xxxxx-xxxx" autocomplete="off" onkeypress="mascaraCel()" maxlength="15"/>
+                <!--<input type="text" name="telefone" class="telefone form-control" pattern="[(]\d{2}[)]\d{5}-\d{4}" placeholder="(61) 94002-8922" />-->
+                <script src="js/Hotel/mascaraFormulario.js"></script>
+            </div>   
 
             <div class="campo-email">
                 <label for="email">E-mail: </label><br>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" name="email" pattern=" (?!:[0-9])([\w].{2,})@([\w].+)" required><br>
+                <!-- (?!:[0-9])([\w].{2,})@([\w].+)\.([\w].{3,5}) -->
             </div>
 
             <!--
