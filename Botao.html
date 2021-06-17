@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+        body{
+            background-color: #353535;
+        }
+
+        .one{
+            width: 175px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid white;
+        }
+
+        .two{
+            margin: 5px;
+            width: 165px;
+            height: 42px;
+            text-align: center;
+            padding-top: 18px;
+            background-color: tomato;
+        }
+
+        .two a.testiando{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Calibri';
+        }
+
+.btn-line span:nth-child(1){
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0px;;
+    width: 5px;
+    height:5px;
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+
+    transition:.75s;
+}
+    
+.btn-line:hover span:nth-child(1){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(2){
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width:5px;
+    height:5px;
+    border-top:2px solid #fff;
+    border-right:2px solid #fff;
+ 
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(2){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(3){
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:5px;
+    height:5px;
+    border-bottom:2px solid #fff;
+    border-left:2px solid #fff;
+
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(3){
+    width:50%;
+    height:50%;
+}
+
+.btn-line span:nth-child(4){
+    content:'';
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:5px;
+    height:5px;
+    border-bottom:2px solid #fff;
+    border-right:2px solid #fff;
+
+    transition:.75s;
+}
+
+.btn-line:hover span:nth-child(4){
+    width:50%;
+    height:50%;
+}
+
+.btn-line{
+    top: 8px;
+    margin:0 5px;
+    position:relative;
+    display:inline-block;
+    padding: 16px 43px!important;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-family: 'Calibri';
+    font-size:16px;
+    font-weight: bold;
+    -webkit-transition:.75s;
+    transition:.75s;
+    overflow:hidden;
+}
+
+.btn-line:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="one"><span></span><span></span><span></span><span></span>
+        <div class="dropdown">
+            <li><a href="#" class="btn-line"><span></span><span></span><span></span><span></span>CONTATO</a></li>
+        </div>
+    </div>
+
+</body>
+</html>
