@@ -1,0 +1,114 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url('/Aula16/img/resort.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nome-hotel{
+    font-family: fantasy;
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 3px #333;
+}
+.dados-hotel{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 768px;
+    height: auto;
+    background-color: #333;
+    font-size: 1.5em;
+    color: chocolate;
+    border-radius: 10px;
+}
+#form-contato{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+.formulario input, select{
+    width: 100%;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+.formulario input[type='radio'], input[type='checkbox']{
+    width: auto;
+
+}
+.formulario input:focus-within{
+    border:2px solid tomato;
+}
+label{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+.form-col-1{
+    width: 48%;
+    float: left;
+}
+.form-col-2{
+    width: 48%;
+    float: right;
+}
+.tituloh2{
+    margin: 0;
+    padding: 15px;
+}
+.valores{
+    margin: 0;
+    padding-bottom: 15px;
+    color:white;
+}
+.botao{
+    margin: 0 auto;
+    width: 300px;
+    height: 70px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+}
+.botao:hover{
+    background-color: brown;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top:25%;
+}
+#promocao{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: brown;
+    width: 300px;
+    height: 120px;
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#img-espanto{
+    position: fixed;
+    bottom: 130px;
+    right: -25px;
+}
+#mensagem{
+    padding: 10px;
+    margin: 0;
+}
+#contador{
+    font-size: 50px;
+    margin: 0;
+}
