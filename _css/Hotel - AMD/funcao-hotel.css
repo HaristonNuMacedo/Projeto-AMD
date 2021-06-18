@@ -137,8 +137,113 @@ header.col{
 
 
 
+#octogono { 
+    width: 290.5px; 
+    height: 100px; 
+    left: 27.5%;
+    top: 20px;
+    background: transparent; 
+    position: relative; 
+    border: 1px solid transparent;
+} 
 
+#octogono span:nth-child(1){
+    content:'';
+    position:absolute;
+    top: 0px;
+    right: 0px;;
+    width: 88.32%;
+    height: 66.7%;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
 
+    transform: rotate(0deg);
+    transition:.5s;
+}
+
+#octogono :hover span:nth-child(1){
+    width: 99.6%;
+    height: 99%;
+}
+
+#octogono span:nth-child(2){
+    content:'';
+    position:absolute;
+    bottom:0;
+    left: 0px;;
+    width: 88.7%;
+    height: 66.16%;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+
+    transform: rotate(0deg);
+    transition: .5s;
+}
+
+#octogono :hover span:nth-child(2){
+    width: 99.6%;
+    height: 99%;
+}
+
+#octogono span:nth-child(3){
+    content:'';
+    position:absolute;
+    top: -23.6px;
+    left: -25.5px;
+    width: 49px;
+    height: 46px;
+    border-left: 1px solid #fff;
+
+    transform: rotate(225deg);
+    transition:.5s;
+}
+
+#octogono :hover span:nth-child(3){
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+#octogono span:nth-child(4){
+    content:'';
+    position:absolute;
+    bottom: 10px;
+    right: 9.2px;
+    width: 45px;
+    height: 45px;
+    border-left: 1px solid #fff;
+    /*border-right: 1px solid #fff;*/
+
+    transform: rotate(225deg);
+    transition:.5s;
+}
+
+#octogono :hover span:nth-child(4){
+    bottom: 0px;
+    right: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+.BlaBla {
+    margin-top: 8px;
+    margin-left: 8px;   
+    background-color: rgb(50, 50, 241);
+    width: 275px;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.BlaBla a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 1;
+}
+
+/*
 button
 {	
 	display: flex;
@@ -197,6 +302,7 @@ button:hover
   	opacity: 1;
   	right: 0;
 }
+*/
 
 .row .colu{
     border-radius: 100px;
@@ -261,6 +367,7 @@ button:hover
     border-bottom: 3px solid #000;
     border-top: 3px solid #000;
 }
+
 
 
 
