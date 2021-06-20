@@ -687,7 +687,7 @@ div.menu h1{
 .modal-container {
     width: 100vw;
     height: 100vh;
-    background: rgba(37, 19, 21, 0.575);
+    background: rgba(35, 35, 35, 0.675);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -695,6 +695,35 @@ div.menu h1{
     display: none;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.modal-container2 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(35, 35, 35, 0.675);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal-container3 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(35, 35, 35, 0.675);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .modal-container.mostrar {
@@ -702,13 +731,14 @@ div.menu h1{
     }
 
 .modal {
-    background: white;
+    background: #080808;
     width: 600px;
     min-width: 300px;
     padding: 15px;
-    border: 10px solid #220007;
-    box-shadow: 0 0 0 10px white;
+    border: 10px solid white;
+    box-shadow: 0 0 0 10px #080808;
     position: relative;
+    color: white;
 }
 
 @keyframes modal {
@@ -735,7 +765,7 @@ div.menu h1{
     height: 50px;
     border-radius: 50%;
     border: 4px solid white;
-    background: #220007;
+    background: #f00303;
     padding-bottom: 6px;
     color: white;
     font-family: "PT Mono", monospace;
@@ -745,8 +775,8 @@ div.menu h1{
 
 .fechar:hover {
     background-color: white;
-    color: #220007;
-    border: 5.5px solid #220007;
+    color: #f00303;
+    border: 5.5px solid #f00303;
     font-weight: 600;
 }
 
