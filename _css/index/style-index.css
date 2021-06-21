@@ -69,10 +69,6 @@ div.menu h1{
 
 /* DROPDOWN NO MENU PRICIPAL */
 
-/* EFEITO NA BORDA */
-
-/* cor opcional: #e15112 */
-
 .btn-line span:nth-child(1){
     content:'';
     position:absolute;
@@ -430,7 +426,7 @@ section.season2 {
 div.processor {
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: 100px;
     width: 45%;
 }
 
@@ -549,7 +545,77 @@ a.botao-color-two:hover span:after {
     left: 178px;
 }
 
+.bord-season2 span:nth-child(1){
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0px;;
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
 
+    transition:.75s;
+}
+
+.bord-season2 :hover span:nth-child(1){
+    width:50%;
+    height:50%;
+}
+
+.bord-season2 span:nth-child(2){
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+
+    transition:.75s;
+}
+
+.bord-season2 :hover span:nth-child(2){
+    width:50%;
+    height:50%;
+}
+
+.bord-season2 span:nth-child(3){
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 25px;
+    height: 25px;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
+
+    transition:.75s;
+}
+
+.bord-season2 :hover span:nth-child(3){
+    width:50%;
+    height:50%;
+}
+
+.bord-season2 span:nth-child(4){
+    content:'';
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 25px;
+    height: 25px;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+
+    transition:.75s;
+}
+
+.bord-season2 :hover span:nth-child(4){
+    width:50%;
+    height:50%;
+}
 
 
 
