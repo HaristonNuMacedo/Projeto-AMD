@@ -536,7 +536,7 @@ a.botao-color-two:hover span:after {
 /* 2° Sessão */
 section.season2-ryzen5 {
     position: relative;
-    background-color: #e15112; 
+    background-color: #fff; 
     padding: 0px;
     margin: 0px;
     margin-bottom: 0px;
@@ -562,12 +562,13 @@ section.season2-ryzen5 {
 .text-ryzen5 {
     position: relative;
     display: block;
-    width: 100%;
+    width: 98%;
+    margin-left: 1%;
 }
 
 .text-ryzen5 h2{
     color: #fff;
-    height: 105px;
+    height: 100px;
     position: relative;
     text-align: end;
     margin: -11.6px auto 0px auto;
@@ -588,57 +589,8 @@ section.season2-ryzen5 {
     margin: 0px;
 }
 
-.botao-color-2 {
-    background-color: #fff;
-    color: rgb(0, 0, 0);
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    transition: background-color 0.2s;
-    font-size: 17px;
-    font-family: Comic Sans MS;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-}
-
-.botao-color-2:hover{
-    background-color: #000;
-    color: #fff;
-    border: 3px solid #fff;
-}
-
-a.botao-color-2 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s; 
-}
-  
-a.botao-color-2 span:after {
-    color: #fff;
-    content: '\22d9';
-    position: absolute;
-    font-size: 22px;
-    font-weight: bolder;
-    opacity: 0;
-    top: -4px;
-    left: 180px;
-    transition: 0.5s;
-}
-  
-a.botao-color-2:hover span {
-    padding-left: 5px;
-}
-  
-a.botao-color-2:hover span:after {
-    opacity: 1;
-    left: 190px;
-}
-
 .hidden5{
-    position: static;
+    position: unset;
     display: none;
     text-align: center;
     margin: 50px 50px 25px 50px;
@@ -657,6 +609,51 @@ div.mostrar-011 p{
     padding: 0px 0px 0px 50px;
     font-family: 'Calibri';
     font-size: 20px;
+}
+
+.masculino {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    border-radius: 8px;
+    border: 3px solid #fff;
+    color: white;
+    background: #333; 
+
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-left: 55px;
+    top: 35px;
+}
+
+.masculino:hover {
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 2px #333;
+}
+
+.feminino {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    color: white;
+    background: #333; 
+
+    font-size: 24px;
+    margin-bottom: 5px;
+    align-items: unset;
+    top: 35px;
+}
+
+.feminino:hover {
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 2px #333;
+}
+
+.text-center{
+    position: absolute;
+    top: 45px;
 }
 
 

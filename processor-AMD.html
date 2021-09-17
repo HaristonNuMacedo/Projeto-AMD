@@ -3,7 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <title>Processadores Ryzen</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/bootstrap.css">
+    <link rel="stylesheet" href="_css/bootstrap.min.css">
+
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='_css/processor/style-processor.css'>
     <link rel="stylesheet" href="_css/processor/reset.css"/>
@@ -106,21 +108,84 @@
         </section>
 
         <section class="season2-ryzen5">
-            <div class="img-s2" onclick="fechar('r5')">
+            <div class="img-s2">
                 <div class="text-ryzen5">
                     <h2>PROCESSADORES RYZEN 5 - hoi4</h2>
-                </div>
-                <div class="btn2">
-                    <a href="#" class="botao-color-2" style="vertical-align:middle"><span>MOSTRAR MAIS</span></a>
+                    <div class="row escolhaSexo">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-10 offset-2">
+                                    <button type="button" class="masculino" onclick="mostrar('r5')">Masculino</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-7 offset-5">
+                                    <label class="text-center">____</label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12 offset-xxl-1">
+                                    <button type="button" class="feminino" onclick="mostrar('rFemin')">Feminino</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
                 </div>
 
                 <div id="r5" class="hidden5">
                     <div class="mostrar-011">
-                        <img src="_imagens/Processor/Ryzen-5/250px-amd_ryzen_5_logo.png" style="height: 100px; width: auto;">
-                        <p>Phasellus porttitor ante at dapibus laoreet. Cras ac magna sed purus eleifend feugiat quis eu tellus. Sed dignissim eleifend purus non congue. 
-                        Nam vel elit orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum euismod tempus massa, 
-                        at mattis nulla fringilla ut. Nulla id ligula dictum ante viverra dignissim. Mauris ac massa tortor. Aenean sed est in nulla accumsan imperdiet ut ac risus. 
-                        Vestibulum tristique, diam a facilisis aliquam, nunc augue semper augue, sed rhoncus mi purus in felis.</p>
+                        
+                        <form method="post" action="" class="agendamento" id="agendamento">
+                            <div class="col-md-6 p-4">
+                                <div class="campoForm2">
+                                    <label for="nome">Nome/Masculino: </label><br>
+                                    <input type="text" id="nome" name="nome" value="testeNome"
+                                        disabled><br>
+                                </div>
+                                <div class="campoForm2">
+                                    <label for="telefone">Telefone: </label><br>
+                                    <input type="text" id="telefone" name="telefone"
+                                        value="testTelefone" ><br>
+                                </div>
+                                <div class="campoForm2">
+                                    <label for="email">E-mail: </label><br>
+                                    <input type="text" id="email" name="email"
+                                        value="testeEmail20@gmail.com" disabled><br>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div id="rFemin" class="hidden5">
+                    <div class="mostrar-011">
+                        
+                            <div class="col-md-6 p-4">
+                                <div class="campoForm2">
+                                    <label for="nome">Nome/Feminino: </label><br>
+                                    <input type="text" id="nome" name="nome" value="testeNome"
+                                        disabled><br>
+                                </div>
+                                <div class="campoForm2">
+                                    <label for="telefone">Telefone: </label><br>
+                                    <input type="text" id="telefone" name="telefone"
+                                        value="testTelefone" ><br>
+                                </div>
+                                <div class="campoForm2">
+                                    <label for="email">E-mail: </label><br>
+                                    <input type="text" id="email" name="email"
+                                        value="testeEmail20@gmail.com" disabled><br>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <script src="js/processador/processador-ryzen.js"></script>
