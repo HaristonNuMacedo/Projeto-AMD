@@ -35,10 +35,11 @@
 
 			<div class="menu">
 			<h1>Menu Principal</h1>
-			<ul> 
-
+			<div class="menuToggle" onclick=" toggleMenu();"></div>
+			<ul class="desknavigation"> 
+			
 		<!-- Parte do Menu com DropDown -->
-				<div class="dropdown">
+				<div class="dropdown" onclick=" toggleMenu();">
 					<li class="btn-line"><span></span><span></span><span></span><span></span>PROCESSADORES</li>
 					<div class="dropdown-content">
 						<a href="#">Link 1</a>
@@ -47,7 +48,7 @@
 					</div>
 				</div>
 
-				<div class="dropdown">
+				<div class="dropdown" onclick=" toggleMenu();">
 					<li class="btn-line"><span></span><span></span><span></span><span></span>PLACAS GRÁFICAS</li>
 					<div class="dropdown-content">
 						<a href="#">Link 1</a>
@@ -56,7 +57,7 @@
 					</div>
 				</div>
 
-				<div class="dropdown">
+				<div class="dropdown" onclick=" toggleMenu();">
 					<li class="btn-line"><span></span><span></span><span></span><span></span>LOJA</li>
 					<div class="dropdown-content">
 						<a href="#">Link 1</a>
@@ -65,22 +66,32 @@
 					</div>
 				</div>
 
-				<div class="dropdown">
+				<div class="dropdown" onclick=" toggleMenu();">
 					<li><a href="#" class="btn-line"><span></span><span></span><span></span><span></span>DRIVER + ASSISTÊNCIA</a></li>
 			    </div>
 
 				<div class="dropdown">
 					<li><a href="#" class="btn-line"><span></span><span></span><span></span><span></span>CONTATO</a></li>
 				</div>
-			</ul>	
+				
 
-			<div class="pesquisar">
+			<div class="pesquisar" onclick=" toggleMenu();">
 				<a class="lupa"><img src="_imagens/Index/menu-home/lupa-atualizado.png" style="width: 28px; height: 28px"></a>
 				<div class="search-content">
 					<input class="campo-search" type="search" placeholder="Search" aria-label="Search">
 				</div>		
 			</div>
 
+		</ul>
+		
+		<ul class="navigation">
+			<li class="">PROCESSADORES</li>
+			<li class="">PLACAS GRÁFICAS</li>
+			<li class="">LOJA</li>
+			<li><a href="#" class="">DRIVER + ASSISTÊNCIA</a></li>
+			<li><a href="#" class="">CONTATO</a></li>
+		</ul>
+		
 	</header>
 
 		<div class="teste"></div>
@@ -180,5 +191,19 @@
 				<a href="#">Configurações de cookies</a>
 			</div>
 		</footer>
+
+		<script type="text/javascript">
+			window.addEventListener('scroll', function() {
+				const header = document.querySelector('header');
+				header.classList.toggle("sticky", window.scrollY < 0);
+			});
+	
+			function toggleMenu() {
+				const menuToggle = document.querySelector('.menuToggle');
+				const navigation = document.querySelector('.navigation');
+				menuToggle.classList.toggle('active');
+				navigation.classList.toggle('active');
+			}
+		</script>
 </body>
 </html>
