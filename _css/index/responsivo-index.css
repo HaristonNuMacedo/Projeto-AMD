@@ -3,7 +3,14 @@
      @media screen and (max-width: 380px) {
         header{
             width: 375px;
+            position: fixed;
+            top: 0;
         }
+
+        section.season1 {
+            margin-top: 90px;
+        }
+        
 
         .logo {
             position: relative;
@@ -12,11 +19,6 @@
 
         .desknavigation {
             display: none;
-        }
-
-        .header{
-            position: fixed;
-            top: 0;
         }
 
         header .navigation
@@ -28,14 +30,13 @@
             width: 90%;
             height: 100%;
             position: fixed;
-            top: 13.0%;
-            left: 5px;
+            top: 12.0%;
+            left: 0px;
             margin-left: 0px;
             display: flex;
             flex-direction: column;
             background: #fff;
             padding-top: 15px;
-            border-right: 4px solid black;
         }
 
         header .navigation li
@@ -90,25 +91,27 @@
         section.season1 {
             width: 375px;
             background-color: black;
-            height: 450px;
+            height: 650px;
         }
     
         .text-season1 {
             width: 375px;
-            bottom: 115px;
+            bottom: 350px!important;
             left: 0px;
         }  
         
-        .mywork img{
-            height: 200px;  
+        .mywork{
+            height: 400px;  
             margin: 0px;
             padding: 0px;
-            border: 0px;   
+            border: 0px;
+            position: relative;  
+            top: 250px; 
         }
 
         div.myworks img.teste{
             position: inherit;
-            top: -10px;
+            top: 10px;
             width: 375px;
             height: 400px;
         }
@@ -138,9 +141,10 @@
 
         .column video{
             width: 100%;
-            height: 450px;
+            height: 350px;
             padding-bottom: 0px;
             padding-top: 0px;
+            top: 50px;
         }
 
     
