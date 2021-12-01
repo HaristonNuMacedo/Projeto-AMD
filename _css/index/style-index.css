@@ -21,12 +21,27 @@
   }
 
 /* Cabeçalho */
-header {
+header
+{
     position: relative;
-    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
     height: 100px;
-    margin: 0px;
-    top: 0px;
+    background: #000;
+}
+
+header.sticky /* Não pode espaço!!!*/
+{
+    background: #fff;
+    padding: 0px 0px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 
 div.teste {
@@ -50,7 +65,7 @@ div.menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 28px;
+    top: 15px;
     left: 260px;
 }
 
@@ -58,6 +73,9 @@ div.menu h1{
     display: none;
 }
 
+.navigation{
+    display: none;
+}
 
 
 
@@ -219,7 +237,7 @@ div.menu h1{
 
 /* Local de pesquisa */
 .lupa {
-    top: 28px;
+    top: 15px;
     margin:0 5px;
     position:relative;
     display:inline-block;
@@ -253,11 +271,11 @@ div.menu h1{
 .pesquisar {
     position: relative;
     display: inline-block;
-    left: 90%;
+    left: 10%;
 }
 
 .search-content {
-    top: 76px;
+    top: 60px;
     right: 5px;
     display: none;
     position: absolute;
@@ -321,7 +339,7 @@ section.season1 {
     top: 0px;
     left: 0px;
     width: 100%;
-    margin: 0px;
+    margin-top: 0px;
 }
 
 .column video{

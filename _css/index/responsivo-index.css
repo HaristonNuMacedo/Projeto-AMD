@@ -1,20 +1,102 @@
      /* PARTE DO SITE MOBILE */
 
-     @media screen and (max-width: 480px) {
+     @media screen and (max-width: 380px) {
         header{
-            width: 480px;
+            width: 375px;
+        }
+
+        .logo {
+            position: relative;
+            left: 0px;
+        }
+
+        .desknavigation {
+            display: none;
+        }
+
+        .header{
+            position: fixed;
+            top: 0;
+        }
+
+        header .navigation
+        {
+            display: none;
+        }
+        header .navigation.active
+        {
+            width: 90%;
+            height: 100%;
+            position: fixed;
+            top: 13.0%;
+            left: 5px;
+            margin-left: 0px;
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            padding-top: 15px;
+            border-right: 4px solid black;
+        }
+
+        header .navigation li
+        {
+            margin-left: 0;
+            color: #111;
+            font-size: 1.6em;
+            font-weight: 300;
+            width: 100%;
+            background-color: #111;
+            color: white;
+            padding: 10px;
+            border: 1px solid #5a5959;
+        }
+        header .navigation li a
+        {
+            margin-left: 0;
+            text-decoration: none;
+            background-color: #111;
+            color: white;
+        }
+
+        .menuToggle
+        {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            background: url(/_imagens/Index/menu-home/menu.jpg);
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            left: 300px;
+            top: -35px;
+        }
+        .menuToggle.active
+        {
+            background: url(/_imagens/Index/menu-home/menu-close.png);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            left: 300px;
+            top: -35px;
+        }
+        header.sticky .menuToggle
+        {
+            filter: invert(1);
         }
     
         /* 1° Sessão */
         section.season1 {
-            width: 480px;
+            width: 375px;
             background-color: black;
+            height: 450px;
         }
     
         .text-season1 {
-            width: 480px;
-            bottom: 430px;
-            left: -10px;
+            width: 375px;
+            bottom: 115px;
+            left: 0px;
         }  
         
         .mywork img{
@@ -27,29 +109,51 @@
         div.myworks img.teste{
             position: inherit;
             top: -10px;
-            width: 480px;
+            width: 375px;
             height: 400px;
         }
         
-    
+        h2.text-Minha-Empresa {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-align: start;
+            color: #ffffff;
+        
+        }
+        
         h3.text-Minha-Empresa{
-            top: 230px;
+            position: absolute;
+            top: 200px;
+            left: 10px;
+            text-align: start;
+            color: #ffffff;
+        
         }
     
         .botao-color {
             top: 330px;
+            left: 90px;
         }
+
+        .column video{
+            width: 100%;
+            height: 450px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+
     
     
         /* 2° Sessão */
         section.season2 {
-            width: 480px;
+            width: 375px;
             height: 810px;
         }
     
         div.processor {
             top: 25px;
-            left: 75px;
+            left: 25px;
             width: 325px;
         }
     
@@ -60,7 +164,7 @@
     
         div.graphic-card {
             top: 400px;
-            left: 75px;
+            left: 25px;
             width: 325px;
         }
     
@@ -73,18 +177,18 @@
         /* 3° Sessão */
         .title-server p {
             font-size: 28px;
-            width: 480px;
+            width: 375px;
             text-align: center;
             right: 20px;
         }
     
         section.season3{
-            width: 480px;
+            width: 375px;
         }
     
         .caixa-server {
-            width: 480px;
-            height: 302px;
+            width: 375px;
+            height: 365px;
             bottom: 1px;
             left: 0px;
         }
@@ -97,25 +201,25 @@
         /* Rodapé do Site */
         footer {
             height: 200px;
-            width: 480px;
+            width: 375px;
             margin: 0px;
             
         }
     
         footer div.finish-index{
-            width: 450px;
+            width: 350px;
             left: 15px;
             margin-right: -10px;
             padding: 0px;
         }
     
         footer div.icons svg.bi-facebook {
-            margin-right: 120px;
+            margin-right: 70px;
             margin-left: 20px;
         }
         
         footer div.icons svg.bi-twitter {
-            margin-right: 120px;
+            margin-right: 70px;
         }
         
         footer div.icons svg.bi-youtube {
@@ -126,12 +230,12 @@
     
         footer div.copyright{
             left: 15px;
-            width: 450px;
+            width: 350px;
         }
         
         footer div.termos-licencas {
             left: 15px;
-            width: 450px;
+            width: 350px;
         }
     
     }
