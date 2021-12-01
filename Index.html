@@ -29,7 +29,7 @@
 
 			<!-- CABEÇALHO DO SITE -->
 	<header>
-		<div class="logo">
+		<div class="logo" onclick=" toggleMenu();">
 			<a href="Index.html"><img src="_imagens/Index/menu-home/logo.png"></a>
 		</div>
 
@@ -203,6 +203,9 @@
 				const navigation = document.querySelector('.navigation');
 				menuToggle.classList.toggle('active');
 				navigation.classList.toggle('active');
+
+				//const logo = document.querySelector('logo');
+				//logo.classList.toggle('active');
 			}
 		</script>
 </body>
