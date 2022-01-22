@@ -1,4 +1,4 @@
-
+2
 //De acordo com a suite escolhida o hospede já tem marcados as refeições
 //document.forms[0].elements[0]
 //document.forms[0].elements[0].checked
